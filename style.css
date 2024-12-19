@@ -1,0 +1,27 @@
+body {
+    font-family: "Inter"; /* Семейство шрифтов */
+    font-size: 18px; /* Размер основного шрифта в <p></p>  */
+    background-color: #dadada; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    color: #85f385; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #226422; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+@keyframes color-change {
+    0% {color:cyan;
+    }
+    50% {color:blue
+    }
+    100% {color:purple
+    }
+}
+h1:hover {
+    animation:color-change 3s infinite;
+}
